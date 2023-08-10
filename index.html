@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Hafeez Baig</title>
+    <script src="https://kit.fontawesome.com/7138f3af24.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="shortcut icon" href="./assets/hafeez-favicon-icon.png">
+  </head>
+  
+  <body>
+    <nav id="desktop-nav">
+      <!-- <div class="title"><b>HAFEEZ</b></div> -->
+      <div>
+        <ul class="nav-links">
+          <li><a href="#profile"><b>Home</b></a></li>
+          <li><a href="#about"><b>About</b></a></li>
+          <li><a href="./assets/HafeezResume.pdf"><b>Resume</b></a></li>
+          <li><a href="#certifications"><b>Certifications</b></a></li>
+          <li><a href="./all-projects.html"><b>Projects</b></a></li>
+          <li><a href="#contact"><b>Contact</b></a></li>
+
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="title"><B>HAFEEZ</B></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#profile" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="./assets/HafeezResume.pdf" onclick="toggleMenu()">Resume</a></li>
+          <li><a href="#certifications" onclick="toggleMenu()">Certifications</a></li>
+          <li><a href="./all-projects.html" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/developer_image_animated.svg" alt="picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1", class="static-txt">Hello, I'm</p>
+        <h1 class="titletext">
+        <li><span>Hafeez Baig</span></li></h1>
+        <p >Graduate Student at AVN Institute of Engineering and Technology</p>
+        <p >Full Stack Web Developer and DevOps Enthusiast</p>
+
+        <br>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/HafeezResume.pdf')"
+          >
+            <p>My Resume</p>
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./all-projects.html'">
+            My Projects
+          </button>
+        </div>
+        <br>
+        <br>
+        <h3 class="social-icon-color">Connect me on</h3>
+        <div id="socials-container">
+          <div class="social-i">
+            <div class="icon-icon linkedinicon">
+              
+              <i class="fa-brands fa-linkedin-in"></i>
+              <span><a class="logotextcolor" href="https://www.linkedin.com/in/mohammed-abdul-hafeez-baig-52b21b209/" onclick="toggle()">LinkedIn</a></span>
+            </div>
+
+            <div class="icon-icon githubicon">
+              <i class="fa-brands fa-github"></i>
+              <span><a class="logotextcolor" href="https://github.com/Hafeezbaig" onclick="toggle()">Github</a></span>
+            </div>
+            <div class="icon-icon instagramicon">
+              <i class="fa-brands fa-instagram"></i>
+              <span><a class="logotextcolor" href="https://www.instagram.com/mohammed_hafeez_baig/" onclick="toggle()">Instagram</a></span>
+            </div>
+            <div class="icon-icon morelinksicon">
+              <i class="fa-solid fa-link"></i>
+              <span><a class="logotextcolor" href="https://linktr.ee/hafeezbaig" onclick="toggle()">Linktree</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="titletext">About Me</h1>
+      <br>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/profile-image.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <!-- <div class="about-containers"> -->
+            <!-- <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Test</h3>
+              <p>hello<br />lorem paragraph</p>
+            </div> -->
+            <!-- <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon2"
+              />
+              <h3>Education</h3>
+              <br>
+              <p1 align="left"><b>Graduation - 2021 to 2024</b> <br>Pursuing 4th year Bachelor of Technology in Computer Science
+                Engineering from AVN Institute of Engineering and Technology
+                <br><br> <b>Diploma - 2018 to 2021 <br> </b>Computer Engineering From Quli-Qutub-Shah Govt. Polytechnic<br />
+                <br><b>Board of Secondary School Education - 2018</b> <br>From Central Public High School</p1>
+            </div> -->
+          <!-- </div> -->
+          <div class="text-container">
+
+            <!-- <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon2"
+              /> -->
+              <h2 class="education-text">Education</h2>
+              <br>
+              <p align="left"><b>Graduation - 2021 to 2024</b> <br>Pursuing 4th year Bachelor of Technology in Computer Science
+                Engineering from AVN Institute of Engineering and Technology
+                <br><br> <b>Diploma - 2018 to 2021 <br> </b>Computer Engineering From Quli-Qutub-Shah Govt. Polytechnic college<br />
+                <br><b>Board of Secondary School Education - 2018</b> <br>From Central Public High School</p>
+                <br>
+                <br>
+            <p>
+              I am Mohammed Abdul Hafeez Baig who aims to be find an exciting and challenging entry level position in the information and
+               technology industry alongside a company who will continuously motivate and drive me to do my best and improve on my skills and 
+               abilities and able to assist the company in achieving its company mission and goals.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="certifications">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="titletext">Certifications</h1>
+      <p class="section__text__p1">All Certificates Can be found under Licenses & Certifications section in <a href="https://www.linkedin.com/in/mohammed-abdul-hafeez-baig-52b21b209/" onclick="toggleMenu()"><b><u>LinkedIn</u></b></a></p>
+      <br>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          
+          <div class="details-container">
+            <h2 class="experience-sub-title">Certificates and Skill Badges</h2>
+            <br>
+            
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/devtown-logo.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                /> <br>
+                <div>
+                  <h3>DevTown (Internship)</h3>
+                  <p1>Full Stack Web Development</p>
+                    <div class="icon-icon morelinksicon">
+                      <i class="fa-solid fa-link"></i>
+                      <span><a class="logotextcolor" onclick="window.open('./certificates/devtown_fswdt_internship_completion_certificate.pdf')">Certificate</a></span>
+                    </div>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/jpmorgan-logo.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                /> <br>
+                <div>
+                  <h3>JP Morgan & Chase</h3>
+                  <p1>Software Engineering Virtual Experience Program</p>
+                    <div class="icon-icon morelinksicon">
+                      <i class="fa-solid fa-link"></i>
+                      <span><a class="logotextcolor" onclick="window.open('https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/R5iK7HMxJGBgaSbvk_J.P.%20Morgan_CD2of2xtPhWgaPkPH_1685327919838_completion_certificate.pdf')">Certificate</a></span>
+                    </div>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/greatlearning-logo.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Great Learning</h3>
+                  <p1>DevOps and Programming</p>
+                    <div class="icon-icon morelinksicon">
+                      <i class="fa-solid fa-link"></i>
+                      <span><a class="logotextcolor" onclick="window.open('./certificates/greatlearning_devops_certificate.pdf')">Certificate</a></span>
+                    </div>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/googlecloud-logo.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Google Cloud</h3>
+                  <p1>Command Line & Console Skill Badges</p>
+                    <div class="icon-icon morelinksicon">
+                      <i class="fa-solid fa-link"></i>
+                      <span><a class="logotextcolor" onclick="window.open('https://www.cloudskillsboost.google/public_profiles/556ddb19-6ea5-4b82-a907-c3882c5edfa8')">Certificate</a></span>
+                    </div>
+                </div>
+              </article>
+              <!-- <article>
+                <img
+                  src="./assets/aws-logo.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>AWS</h3>
+                  <p1>Cloud Technical Essentials</p>
+                    <div class="icon-icon morelinksicon">
+                      <i class="fa-solid fa-link"></i>
+                      <span><a class="logotextcolor" onclick="window.open('')">Certificate</a></span>
+                    </div>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/microsoft-logo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Azure AZ-900</h3>
+                  <p1>Microsoft Azure Fundamentals</p>
+                    <div class="icon-icon morelinksicon">
+                      <i class="fa-solid fa-link"></i>
+                      <span><a class="logotextcolor" onclick="window.open('')">Certificate</a></span>
+                    </div>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/microsoft-logo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Azure AZ-104</h3>
+                  <p1>Microsoft Azure Administrator</p>
+                    <div class="icon-icon morelinksicon">
+                      <i class="fa-solid fa-link"></i>
+                      <span><a class="logotextcolor" onclick="window.open('')">Certificate</a></span>
+                    </div>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/jpmorgan-logo.jpeg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JP Morgan & Chase</h3>
+                  <p1>Cybersecurity Virtual Experience Program</p>
+                    <div class="icon-icon morelinksicon">
+                      <i class="fa-solid fa-link"></i>
+                      <span><a class="logotextcolor" onclick="window.open('')">Certificate</a></span>
+                    </div>
+                </div>
+              </article>
+
+              <article>
+                <img
+                  src="./assets/redhat-logo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Red Hat</h3>
+                  <p1>Fundamentals of Red Hat Enterprise Linux</p>
+                    <div class="icon-icon morelinksicon">
+                      <i class="fa-solid fa-link"></i>
+                      <span><a class="logotextcolor" onclick="window.open('')">Certificate</a></span>
+                    </div>
+                </div>
+              </article> -->
+            </div>
+            <!-- <br> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- <div id="projects">
+      <div class="container">
+
+        <h1 class="titletext">Projects</h1>
+      <p class="section__text__p1">All project's source code can be found on my <a href="https://github.com/Hafeezbaig" onclick="toggleMenu()"><b><u>Github Repository</u></b></a></p>
+      <br>
+        <br>
+    
+        <div class="box-container">
+            <div class="box">
+                <img src="assets/zomato-clone-project.png" alt="zomato clone project image">
+                <h3>Zomato Clone App</h3>
+                <p>Front-End Web Development Project Zomato Clone App</p>
+                <div class="social-i">
+                <div class="icon-icon githubicon">
+                  <i class="fa-brands fa-github"></i>
+                  <span><a class="logotextcolor" href="https://github.com/Hafeezbaig/zomato-clone-project" onclick="toggle()">Code</a></span>
+                </div>
+                <div class="icon-icon morelinksicon">
+                  <i class="fa-solid fa-link"></i>
+                  <span><a class="logotextcolor" href="./zomato-clone-project.html" onclick="toggle()">Demo</a></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div> -->
+       
+      </div>
+    
+    </div>
+    
+  </div>
+
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="titletext">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email-logo.png"
+            alt="Email icon"
+            class="icon2 contact-icon email-icon"
+          />
+          <p><a href="mailto:hafeezbaig3138@gmail.com">Hafeezbaig3138@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin-logo2.png"
+            alt="LinkedIn icon"
+            class="icon2 contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/mohammed-abdul-hafeez-baig-52b21b209/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <h3 align="center" class="social-icon-color">Connect me on</h3>
+        <div id="socials-container">
+          <div class="social-i">
+            <div class="icon-icon linkedinicon">
+              
+              <i class="fa-brands fa-linkedin-in"></i>
+              <span><a class="logotextcolor" href="https://www.linkedin.com/in/mohammed-abdul-hafeez-baig-52b21b209/" onclick="toggle()">LinkedIn</a></span>
+            </div>
+
+            <div class="icon-icon githubicon">
+              <i class="fa-brands fa-github"></i>
+              <span><a class="logotextcolor" href="https://github.com/Hafeezbaig" onclick="toggle()">Github</a></span>
+            </div>
+
+            <div class="icon-icon instagramicon">
+              <i class="fa-brands fa-instagram"></i>
+              <span><a class="logotextcolor" href="https://www.instagram.com/mohammed_hafeez_baig/" onclick="toggle()">Instagram</a></span>
+            </div>
+            <div class="icon-icon morelinksicon">
+              <i class="fa-solid fa-link"></i>
+              <span><a class="logotextcolor" href="https://linktr.ee/hafeezbaig" onclick="toggle()">Linktree</a></span>
+            </div>
+          </div>
+        </div>
+        <br>
+      <p>Copyright &#169; 2023 Hafeez Baig.  All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
